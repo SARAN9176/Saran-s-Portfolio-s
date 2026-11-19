@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Saran D P — Web Developer and BCA graduate from AM Jain College, Chennai.">
+  <meta name="theme-color" content="#090611">
+  <title>SARAN.DEV | Saran D P</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-logo">SARAN<span>.DEV</span></div>
+    <div class="loader-line"><span></span></div>
+    <p>INITIALIZING PORTFOLIO</p>
+  </div>
+
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">SARAN<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="navLinks" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-resume" href="assets/resume/Saran_DP_Resume_Updated.pdf" target="_blank" rel="noopener">Resume ↗</a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span class="status-dot"></span> WEB DEVELOPER <span class="eyebrow-divider">|</span> CHENNAI, INDIA</p>
+        <p class="intro">Hello, I'm</p>
+        <h1>Saran <span>D P.</span></h1>
+        <h2>I'm a <span id="typing">Web Developer</span><span class="typing-cursor">|</span></h2>
+        <p class="tagline">Turning Ideas Into Reality.</p>
+        <p class="hero-description">A BCA graduate who enjoys building responsive websites, exploring new technologies and turning ideas into useful digital experiences.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">Explore My Work ↗</a>
+          <a href="assets/resume/Saran_DP_Resume_Updated.pdf" class="btn btn-outline" target="_blank" rel="noopener">View Resume ↗</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/Saran9176" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://in.linkedin.com/in/saran-dp-6b9520324" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:saran9176084217@gmail.com">Email ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="energy-core"><img src="assets/images/profile.jpg" alt="Portrait of Saran D P"></div>
+        <div class="floating-card card-top">✦ Creative Developer</div>
+        <div class="floating-card card-bottom">⌘ Building for the web</div>
+      </div>
+      <a class="scroll-indicator" href="#about">SCROLL TO EXPLORE ↓</a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT ME</p><h2>A little about <span>myself.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-photo reveal"><img src="assets/images/profile.jpg" alt="Saran D P"></div>
+        <div class="about-text reveal">
+          <h3>Curious mind. Creative approach.</h3>
+          <p>I'm Saran D P, a BCA graduate from A.M. Jain College, Chennai. I'm interested in coding and learning new technologies. I enjoy developing websites and continuously improving my skills.</p>
+          <p>I'm seeking an entry-level Web Developer opportunity where I can apply my knowledge of HTML, CSS, JavaScript and React.js, contribute to practical projects and grow as a developer.</p>
+          <div class="info-grid">
+            <div><small>Education</small><strong>Bachelor of Computer Applications</strong></div>
+            <div><small>College</small><strong>A.M. Jain College</strong></div>
+            <div><small>Graduation</small><strong>2026 · 71.77%</strong></div>
+            <div><small>Location</small><strong>Chennai, Tamil Nadu</strong></div>
+          </div>
+          <a href="assets/resume/Saran_DP_Resume_Updated.pdf" class="text-link" target="_blank" rel="noopener">View full resume ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="section" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow">02 / MY TOOLKIT</p><h2>Skills & <span>technologies.</span></h2><p>Tools and technologies I use and continue to develop my skills in.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span>01</span><h3>HTML</h3><p>Web structure</p></article>
+        <article class="skill-card reveal"><span>02</span><h3>CSS</h3><p>Styling & layouts</p></article>
+        <article class="skill-card reveal"><span>03</span><h3>JavaScript</h3><p>Interactive websites</p></article>
+        <article class="skill-card reveal"><span>04</span><h3>React.js</h3><p>Front-end library</p></article>
+        <article class="skill-card reveal"><span>05</span><h3>Java</h3><p>Basic programming</p></article>
+        <article class="skill-card reveal"><span>06</span><h3>Python</h3><p>Basic programming</p></article>
+        <article class="skill-card reveal"><span>07</span><h3>Git & GitHub</h3><p>Version control</p></article>
+        <article class="skill-card reveal"><span>08</span><h3>Responsive Design</h3><p>Mobile-friendly UI</p></article>
+      </div>
+    </section> -->
+
+    <section class="section" id="skills">
+  <div class="section-heading reveal">
+    <p class="eyebrow">02 / MY TOOLKIT</p>
+    <h2>Skills &amp; Technologies</h2>
+    <p>Tools and technologies I use and continue to develop my skills in.</p>
+  </div>
+
+  <div class="skills-grid">
+    <article class="skill-card reveal">
+      <img src="assets/images/skills/html.png" alt="HTML5">
+      <span>01</span>
+      <h3>HTML5</h3>
+      <p>Web structure</p>
+    </article>
+
+    <article class="skill-card reveal">
+      <img src="assets/images/skills/css.png" alt="CSS3">
+      <span>02</span>
+      <h3>CSS3</h3>
+      <p>Styling &amp; layouts</p>
+    </article>
+
+    <article class="skill-card reveal">
+      <img src="assets/images/skills/javascript.png" alt="JavaScript">
+      <span>03</span>
+      <h3>JavaScript</h3>
+      <p>Interactive web</p>
+    </article>
+
+    <article class="skill-card reveal">
+      <img src="assets/images/skills/react.png" alt="React.js">
+      <span>04</span>
+      <h3>React.js</h3>
+      <p>Front-end library</p>
+    </article>
+
+    <article class="skill-card reveal">
+      <img src="assets/images/skills/java.png" alt="Java">
+      <span>05</span>
+      <h3>Java</h3>
+      <p>Programming</p>
+    </article>
+
+    <article class="skill-card reveal">
+      <img src="assets/images/skills/python.png" alt="Python">
+      <span>06</span>
+      <h3>Python</h3>
+      <p>Programming &amp; scripting</p>
+    </article>
+
+    <article class="skill-card reveal">
+      <img src="assets/images/skills/github.png" alt="Git & GitHub">
+      <span>07</span>
+      <h3>Git &amp; GitHub</h3>
+      <p>Version control</p>
+    </article>
+
+    <article class="skill-card reveal">
+      <img src="assets/images/skills/web-design.png" alt="Web Design">
+      <span>08</span>
+      <h3>Web Design</h3>
+      <p>Responsive &amp; UI design</p>
+    </article>
+  </div>
+</section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal"><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects I've <span>built.</span></h2><p>A couple of projects from my development journey.</p></div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <a class="project-image" href="https://saran9176.github.io/My-Portfolio/" target="_blank" rel="noopener"><img src="assets/images/project-portfolio.png" alt="Preview of Saran's personal portfolio"></a>
+          <div class="project-body"><p class="project-number">PROJECT 01</p><h3>Personal Developer Portfolio</h3>
+            <p>A responsive portfolio website to showcase my profile, technical skills, education, projects and contact details.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="https://saran9176.github.io/My-Portfolio/" target="_blank" rel="noopener">Live Project ↗</a>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <a class="project-image" href="https://saran9176.github.io/Calculator/" target="_blank" rel="noopener"><img src="assets/images/project-calculator.png" alt="Preview of Saran's calculator project"></a>
+          <div class="project-body"><p class="project-number">PROJECT 02</p><h3>Calculator</h3>
+            <p>A web-based calculator with a clean interface for performing basic arithmetic operations, built with front-end technologies.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="https://saran9176.github.io/Calculator/" target="_blank" rel="noopener">Live Project ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading reveal"><p class="eyebrow">04 / EXPERIENCE & EDUCATION</p><h2>My learning <span>journey.</span></h2></div>
+      <div class="timeline reveal"><div class="timeline-marker"></div><div class="timeline-content">
+        <p class="eyebrow">1 MONTH INTERNSHIP</p><h3>Web Development & Basic Graphic Design Intern</h3><h4>2M Communication</h4>
+        <p>Worked on web development-related tasks and assisted with creating and modifying web pages. Gained practical exposure to HTML, CSS and JavaScript while supporting website updates and basic graphic design tasks.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Graphic Design</span></div>
+      </div></div>
+      <div class="timeline reveal"><div class="timeline-marker"></div><div class="timeline-content">
+        <p class="eyebrow">COMPLETED · 2026</p><h3>Bachelor of Computer Applications (BCA)</h3><h4>A.M. Jain College, Chennai</h4>
+        <p>Graduated with 71.77%. Built a foundation in computer applications, programming and web technologies.</p>
+      </div></div>
+    </section>
+
+    <section class="section extras">
+      <div class="section-heading reveal"><p class="eyebrow">05 / BEYOND CODE</p><h2>More about <span>me.</span></h2></div>
+      <div class="extras-grid">
+        <article class="extra-card reveal"><h3>Achievements & Sports</h3><p>College: Won in Kabaddi and Cricket competitions.</p><p>School: Secured 1st Prize in Volleyball and Kabaddi.</p></article>
+        <article class="extra-card reveal"><h3>Certifications</h3><p>Infosys Certification</p><p>Basics of Python</p><p>Object Oriented Programming using Python</p></article>
+        <article class="extra-card reveal"><h3>Languages</h3><p>Tamil</p><p>English</p></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading reveal"><p class="eyebrow">06 / GET IN TOUCH</p><h2>Let's build something <span>great.</span></h2><p>Open to entry-level opportunities, collaborations and interesting projects.</p></div>
+      <div class="contact-grid reveal">
+        <a class="contact-card" href="mailto:saran9176084217@gmail.com"><small>EMAIL</small><strong>saran9176084217@gmail.com</strong><span>↗</span></a>
+        <a class="contact-card" href="tel:+919176084217"><small>PHONE</small><strong>+91 9176084217</strong><span>↗</span></a>
+        <a class="contact-card" href="https://github.com/Saran9176" target="_blank" rel="noopener"><small>GITHUB</small><strong>github.com/Saran9176</strong><span>↗</span></a>
+        <a class="contact-card" href="https://in.linkedin.com/in/saran-dp-6b9520324" target="_blank" rel="noopener"><small>LINKEDIN</small><strong>Connect with me</strong><span>↗</span></a>
+      </div>
+      <a class="btn btn-primary contact-cta" href="mailto:saran9176084217@gmail.com?subject=Portfolio%20Enquiry">Let's Talk ↗</a>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#home">SARAN<span>.</span></a><p>Turning Ideas Into Reality.</p><p>© <span id="year"></span> SARAN.DEV</p></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
