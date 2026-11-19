@@ -11,7 +11,3 @@ Open this folder in VS Code and launch `index.html` with the Live Server extensi
 - `assets/images/project-calculator.png` — supplied calculator screenshot
 - `assets/resume/Saran-DP-Resume.pdf` — supplied resume
 
-## Before publishing
-- Check the resume and contact details.
-- Add repository links if you want visitors to browse the source code.
-- The live project links currently point to the URLs listed in the supplied resume.
